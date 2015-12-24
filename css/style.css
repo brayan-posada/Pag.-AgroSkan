@@ -436,7 +436,7 @@ footer{
         text-align: left;
     }
 }
-
+/* Media Query para la adaptacion */
 /* Small devices (tablets,  and up) */
 @media (max-width:768px) { 
     .navbar-collapse.navbar-ex1-collapse.nav-menu{
