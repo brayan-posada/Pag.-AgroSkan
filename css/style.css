@@ -173,10 +173,44 @@ div.row .box  {
         letter-spacing:1px;
     }
 
-/*border: 1px solid rgba(127, 186, 17, 0.87);
-    border-radius: 5px;
-    font-family: 'Open Sans', sans-serif;*/
+/* ul-Contactenos */
+ul{
+    margin: 1em;
+}
+ul li div.cont-mar{
+    margin-bottom: 2em;
+}
+        ul li i{
+            display: inline-block;
+            border: 1px solid black;
+        }
+            ul li i.map, ul li i.email, ul li i.phone{
+                display: inline-block;
+                width:43px;
+                height: 43px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
 
+            ul li i.map{
+                background-image: url(../img/icon/pin56.png);
+            }
+
+            ul li i.email{
+                background-image: url(../img/icon/email5.png);
+            }
+
+            ul li i.phone{
+                background-image: url(../img/icon/telephone5.png);
+            }
+            
+        ul li h4{
+            border:1px solid black;
+        }
+        
+
+/* text */
 input[type="text"],
 input[type="email"],
 textarea{
