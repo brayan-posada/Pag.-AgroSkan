@@ -11,6 +11,10 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
         font-family: 'Open Sans', italic;
         font-weight: 300;
 	}
+    
+    ol, ul {
+		list-style: none;
+	}
 
 	body {
 		background-image:  -moz-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg);
@@ -96,13 +100,13 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
 		}
             
             .envoltura.style-while header, .envoltura.style-blue header {     
-                margin-top: 2em;
-                margin-bottom:2em;
+                margin-top: 3em;
+                margin-bottom:3em;
             }
 
             .envoltura.style-while header h2 { 
                 color: #262626;
-                font-size: 30px;
+                font-size: 35px;
                 font-style: normal;
                 font-weight: 300;
                 text-align: center;
@@ -121,13 +125,15 @@ div.row .box  {
     border-radius: 4px;
     border: 2px solid rgba(127, 186, 17, 0.87);
     margin-bottom: 2em;
+    margin-top: 2em;
     padding: 1.5em;
-    height: 266px;
+    height: 300px;
     text-align: center;
 } 
     div.row .box-cli{
         border:0px;
-        margin-bottom: 2em;
+        margin-top: 3em;
+        margin-bottom: 3em;
         padding: 1.5em;
         text-align: center;
     }
@@ -155,6 +161,7 @@ div.row .box  {
     .box h2{
             margin-top: 15px;
             font-size: 20px;
+            margin-top: 2em;
             letter-spacing: 3px;
             text-transform: none;  
             margin-bottom: 10px;
@@ -165,5 +172,114 @@ div.row .box  {
         text-align: justify;
         letter-spacing:1px;
     }
-    
+
+/*border: 1px solid rgba(127, 186, 17, 0.87);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;*/
+
+input[type="text"],
+input[type="email"],
+textarea{
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin:  10px auto;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid rgba(127, 186, 17, 0.87);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+textarea{
+    height: 66px;
+}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		width: 140px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 1px solid rgba(127, 186, 17, 0.87);
+        border-radius: 5px;
+        background-color: #f8f8f8;
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(127, 186, 17, 0.87);
+	}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button:hover,
+		.button:hover {
+			border-color: #ff7496;
+			color: #ff7496 !important;
+		}
+
+		input[type="submit"].icon,
+		input[type="reset"].icon,
+		input[type="button"].icon,
+		button.icon,
+		.button.icon {
+			padding-left: 1.35em;
+		}
+
+			input[type="submit"].icon:before,
+			input[type="reset"].icon:before,
+			input[type="button"].icon:before,
+			button.icon:before,
+			.button.icon:before {
+				margin-right: 0.5em;
+			}
+
+		input[type="submit"].fit,
+		input[type="reset"].fit,
+		input[type="button"].fit,
+		button.fit,
+		.button.fit {
+			display: block;
+			width: 100%;
+			margin: 0 0 0.75em 0;
+		}
+
+		input[type="submit"].small,
+		input[type="reset"].small,
+		input[type="button"].small,
+		button.small,
+		.button.small {
+			font-size: 0.8em;
+		}
+
+		input[type="submit"].big,
+		input[type="reset"].big,
+		input[type="button"].big,
+		button.big,
+		.button.big {
+			font-size: 1.35em;
+		}
+
+		input[type="submit"].disabled, input[type="submit"]:disabled,
+		input[type="reset"].disabled,
+		input[type="reset"]:disabled,
+		input[type="button"].disabled,
+		input[type="button"]:disabled,
+		button.disabled,
+		button:disabled,
+		.button.disabled,
+		.button:disabled {
+			-moz-pointer-events: none;
+			-webkit-pointer-events: none;
+			-ms-pointer-events: none;
+			pointer-events: none;
+			opacity: 0.5;
+		}
         
