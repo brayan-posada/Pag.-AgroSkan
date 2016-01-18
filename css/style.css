@@ -16,6 +16,7 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
 		list-style: none;
 	}
 
+
 	body {
 		background-image:  -moz-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg);
 		background-image:  -webkit-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg); 
@@ -104,13 +105,13 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
                 margin-bottom:3em;
             }
 
-            .envoltura.style-while header h2 { 
+            .envoltura.style-while header h2{ 
                 color: #262626;
                 font-size: 35px;
                 font-style: normal;
                 font-weight: 300;
                 text-align: center;
-                letter-spacing: 5px;
+                letter-spacing: 3px;
                 text-decoration: none;
 		    }
                 
@@ -119,7 +120,17 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
                 background-image:url(../img/banner/map-image.png);
                 background-position: center;
                 background-size:contain;
-            }
+                background-repeat: no-repeat;
+            }    
+                .envoltura.style-while.noting-margin header h2 { 
+                color: #262626;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 300;
+                text-align: center;
+                letter-spacing: 3px;
+                text-decoration: none;
+		    }
 
 div.row .box  {
     border-radius: 4px;
@@ -173,42 +184,92 @@ div.row .box  {
         letter-spacing:1px;
     }
 
-/* ul-Contactenos */
-ul{
-    margin: 1em;
+/* iconos */
+
+
+.margin-top{
+    margin-top: 2em;
 }
-ul li div.cont-mar{
-    margin-bottom: 2em;
-}
-        ul li i{
-            display: inline-block;
-            border: 1px solid black;
+
+    .icon-img{
+        width: 60px;
+        height: 60px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 12px;
+        padding-bottom: ;
+        border: 2px solid white;
+        border-radius: 100%;
+        text-align: center;
+        background-color: rgba(127, 186, 17, 0.87);
+        /*box-shadow: rgba(127, 186, 17, 0.87) 0px 0px 0px 1px;*/
+    }
+
+         i.map,  i.email, i.phone, i.github,  i.fac, i.tw {
+            display:inline-block;
+            width:30px;
+            height:30px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            text-align: center;
+
         }
-            ul li i.map, ul li i.email, ul li i.phone{
-                display: inline-block;
-                width:43px;
-                height: 43px;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
+
+.center-obj{
+    width: 15%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+    .center-obj ul {
+        margin-top: 1em;
+    }
+     .center-obj ul > li  {
+            display: inline-block;
+            margin-left: 2px;
+            width: 40px;
+            height: 40px;
+        }
+
+            h4.text-h4 {
+                width:100%;
+                padding: 1em;
             }
 
-            ul li i.map{
+            i.map{
                 background-image: url(../img/icon/pin56.png);
+                
             }
 
-            ul li i.email{
+            i.email{
                 background-image: url(../img/icon/email5.png);
             }
 
-            ul li i.phone{
+            i.phone{
                 background-image: url(../img/icon/telephone5.png);
             }
-            
-        ul li h4{
-            border:1px solid black;
-        }
-        
+
+            i.github{
+                background-image: url(../img/icon/github.png);
+                width: 40px;
+                height: 40px;
+            }
+
+            i.fac{
+                background-image: url(../img/icon/facebook2.png);
+                width: 40px;
+                height: 40px;
+            }
+
+            i.tw{
+                background-image: url(../img/icon/twitter.png);
+                width: 40px;
+                height: 40px;
+            }
+
+/*+-----------------------------------------------------------------------------------------------------------------------------------+*/
 
 /* text */
 input[type="text"],
@@ -255,8 +316,9 @@ textarea{
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #ff7496;
-			color: #ff7496 !important;
+			border-color: rgba(127, 186, 17, 0.87) !important;
+            background-color:  rgba(127, 186, 17, 0.87) !important;
+			color: #f8f8f8 !important;
 		}
 
 		input[type="submit"].icon,
