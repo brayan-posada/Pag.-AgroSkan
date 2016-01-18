@@ -15,7 +15,18 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
     ol, ul {
 		list-style: none;
 	}
-
+    
+    a {
+        letter-spacing: 3px;
+        text-transform: none;  
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        line-height: 51px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
 
 	body {
 		background-image:  -moz-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg);
@@ -27,12 +38,12 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
         background-attachment: scroll, fixed;
 	}
 /* */
+
+
+
+/**/
 #banner{
     position: relative;
-    left: auto;
-    top: auto;
-    right: auto;
-    bottom: auto;
     display: block;
     overflow-x: auto;
     overflow-y: auto;
@@ -43,13 +54,49 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
     min-height: 100%;
     min-width: 100%;
     margin: auto;
-    padding-top: 184px;
+    
     background-image: -webkit-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2));
     background-image: linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2));
     font-family: 'Open Sans', sans-serif;
 }
+   /* menu de la aplicación */ 
+    .navbar-default{
+        background-color: transparent;
+        position: static;
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right:auto;
+        border-radius: 0px;
+        border: 0;
+    }
+
+        a.navbar-brand i.logo {
+            text-align: center;
+            background-image: url(../img/icon/img-logo.png);
+            width: 50px;
+            height: 50px;
+        }
+    
+    div.navbar-collapse ul.navbar-right li {
+        text-align: center;
+       /* border: 1px solid white;*/
+        /*border-radius: 5px;*/
+    }  
+        div.navbar-collapse ul.navbar-right li a {
+            font-size: 20px;
+        } 
+        
+          div.navbar-collapse ul.navbar-right li a:hover {
+              font-size: 20px;
+              border-bottom: 1px solid white;
+              border-right: 1px solid white;
+              border-left: 1px solid white;
+          } 
+
     #banner header {
         width: 80%;
+        padding-top: 184px;
         margin: 0 auto;
     }    
 
@@ -205,7 +252,7 @@ div.row .box  {
         /*box-shadow: rgba(127, 186, 17, 0.87) 0px 0px 0px 1px;*/
     }
 
-         i.map,  i.email, i.phone, i.github,  i.fac, i.tw {
+         i.map,  i.email, i.phone, i.github,  i.fac, i.tw, i.logo {
             display:inline-block;
             width:30px;
             height:30px;

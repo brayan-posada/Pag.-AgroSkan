@@ -22,10 +22,27 @@
     <script src="js/bootstrap.js"></script>
 </head>
 <body>
-<nav class="menu">
-    
-</nav>
+
 <section id="banner">
+    <nav class="navbar navbar-default" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"><i class="logo"></i></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Ingresar</a></li>
+        </ul>
+  </div>
+</nav>
     <header>
         <h2>AGROSKAN LO MEJOR PARA TU CUTIVO</h2>
         <p>Con AgroSkan le brindamos la mejor herramienta para optimizaras el monitorio de plagas y/o enfermedades en sucultivo.</p>
@@ -71,13 +88,14 @@
         </div>
     </div>
 </section>
+
 <section id="clientes" class="envoltura style-while">
     <header>
         <h2>Algunos de nuestros clientes</h2>
     </header>
     <div class="container">
         <div class="row">
-             <section class="col-xs-12 col-sm-12	col-md-4 col-lg-4">
+             <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <article class=" box-cli">
                     <img src="img/icon/img-Flo-Tenjo.png" class="img mod-width">
                 </article>
@@ -95,6 +113,7 @@
         </div>
     </div>
 </section>
+
 <section id="contacto" class="envoltura style-while noting-margin">
     <header>
         <h2>Contáctenos</h2>
@@ -156,5 +175,6 @@
         </div>
     </section>
 </section>
+
 </body>
 </html>
