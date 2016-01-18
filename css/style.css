@@ -54,7 +54,6 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
     min-height: 100%;
     min-width: 100%;
     margin: auto;
-    
     background-image: -webkit-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2));
     background-image: linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2));
     font-family: 'Open Sans', sans-serif;
@@ -361,9 +360,9 @@ textarea{
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(127, 186, 17, 0.87) !important;
-            background-color:  rgba(127, 186, 17, 0.87) !important;
-			color: #f8f8f8 !important;
+			border-color: rgba(127, 186, 17, 0.87) ;
+            background-color:  rgba(127, 186, 17, 0.87) ;
+			color: #f8f8f8 ;
 		}
 
 		input[type="submit"].icon,
@@ -426,15 +425,59 @@ textarea{
 
 /* Small devices (tablets,  and up) */
 @media (max-width:768px) { 
+    
    #banner header h2{
+       margin-top: -20%;
             padding-right: 0px;
-            font-size: 25px;
+            font-size: 25px !important;
         }
     #banner header p{
-            
             padding-right:0px;
-            font-size: 18px;
+            font-size: 14px !important;
+            text-align:center !important;
         }
+        
+    .navbar-default{
+        width: 100%;
+       
+    }
+    a.navbar-brand {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+        a.navbar-brand i.logo {
+            text-align: center;            
+            background-image: url(../img/icon/img-logo.png);
+            width: 40px;
+            height: 40px;
+        }
+    .navbar-toggle{
+        width: 97%;
+        margin: 5px;
+        background: white;
+    }
+     
+    .navbar-toggle:active{
+        background: white;
+    }
+    div.navbar-collapse ul.navbar-right li {
+        text-align: center;
+        width: 95%;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }  
+        div.navbar-collapse ul.navbar-right li a {
+            font-size: 20px;
+        } 
+        
+          div.navbar-collapse ul.navbar-right li a:hover {
+              font-size: 20px;
+               border: 0;
+               background: white;
+              color:  rgba(127, 186, 17, 0.87) !important;
+          } 
+    
     .envoltura.style-while header h2{ 
                 font-size: 30px;
 		    }
@@ -462,6 +505,12 @@ textarea{
             width: 40px;
             height: 40px;
         }
+    
+    button:hover {
+        border-radius: 5px;
+        background-color: white !important;
+        color: rgba(127, 186, 17, 0.87) !important;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
