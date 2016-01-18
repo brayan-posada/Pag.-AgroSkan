@@ -238,11 +238,11 @@ div.row .box  {
 }
 
     .icon-img{
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
         margin-right: auto;
         margin-left: auto;
-        padding-top: 12px;
+        padding-top: 7px;
         padding-bottom: ;
         border: 2px solid white;
         border-radius: 100%;
@@ -253,8 +253,8 @@ div.row .box  {
 
          i.map,  i.email, i.phone, i.github,  i.fac, i.tw, i.logo {
             display:inline-block;
-            width:30px;
-            height:30px;
+            width:20px;
+            height:20px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -279,12 +279,11 @@ div.row .box  {
 
             h4.text-h4 {
                 width:100%;
-                padding: 1em;
+                padding-top: 0.50em;
             }
 
             i.map{
                 background-image: url(../img/icon/pin56.png);
-                
             }
 
             i.email{
