@@ -29,13 +29,12 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
     }
 
 	body {
-		background-image:  -moz-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-2.jpg);
-		background-image:  -webkit-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-2.jpg); 
-		background-image:  -ms-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-2.jpg);
-		background-image: linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)),url(../img/banner/img-body-2.jpg);
+		background-image:  -moz-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg);
+		background-image:  -webkit-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg); 
+		background-image:  -ms-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg);
+		background-image: linear-bodygba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)),url(../img/banner/body.jpg);
         background-position: center;
         background-size: auto, cover;
-        background-repeat: no-repeat;
         background-attachment: scroll, fixed;
        overflow-x: hidden;
 	}
