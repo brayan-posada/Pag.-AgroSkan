@@ -29,9 +29,9 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
     }
 
 	body {
-		/*background-image:  -moz-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg);
-		background-image:  -webkit-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg); 
-		background-image:  -ms-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/body.jpg);*/
+		background-image:  -moz-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-3.jpg);
+		background-image:  -webkit-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-3.jpg); 
+		background-image:  -ms-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-3.jpg);
 		background-image: linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-3.jpg);
         background-position: center;
         background-size:cover;
@@ -191,7 +191,7 @@ div.row .box  {
     margin-bottom: 2em;
     margin-top: 2em;
     padding: 1.5em;
-    height: 350px;
+    height: 300px;
     text-align: center;
 } 
     div.row .box-cli{
