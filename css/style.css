@@ -203,16 +203,10 @@ div.row .box  {
         text-align: center;
     }
     .box div.cont-img{
-            width: 83px;
-            height: 83px;
-            margin-right: auto;
-            margin-left: auto;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            border: 10px solid white;
-            border-radius: 100%;
-            background-color: rgba(127, 186, 17, 0.87);
-            box-shadow: rgba(127, 186, 17, 0.87) 0px 0px 0px 1px;
+            width: 100%;
+            height: 100px;
+            padding: 0;
+            margin: 0;
         }
             
             .box img.img, .box-cli img.img {
@@ -223,6 +217,22 @@ div.row .box  {
                 .box img.img.mod-width, .box-cli img.img.mod-width {
                     width:250px;
                 }
+                
+                .box div.cont-img i.img-moni{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    text-align: center;
+                    margin: 0;
+                }
+                
+i.img-moni{
+    background-image: url(/img/icon/monitoreo.png);
+}
+            
     .box h2{
             margin-top: 15px;
             font-size: 20px;
