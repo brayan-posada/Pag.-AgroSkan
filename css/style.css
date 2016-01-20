@@ -218,7 +218,7 @@ div.row .box  {
                     width:250px;
                 }
                 
-                .box div.cont-img i.img-moni{
+                .box div.cont-img i.img-moni,.box div.cont-img i.img-ttp,.box div.cont-img i.img-rep{
                     display: inline-block;
                     width: 100%;
                     height: 100px;
@@ -230,7 +230,13 @@ div.row .box  {
                 }
                 
 i.img-moni{
-    background-image: url(/img/icon/monitoreo.png);
+    background-image: url(../img/icon/monitoreo.png);
+}
+i.img-ttp{
+    background-image: url(../img/icon/Registrodeplagas.png);
+}
+i.img-rep{
+    background-image: url(../img/icon/Reporte.png);
 }
             
     .box h2{
