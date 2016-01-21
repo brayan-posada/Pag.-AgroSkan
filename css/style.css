@@ -34,16 +34,11 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
 		background-image:  -ms-linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-3.jpg);
 		background-image: linear-gradient(rgba(127, 186, 17, 0.2), rgba(127, 186, 17, 0.2)), url(../img/banner/img-body-3.jpg);
         background-position: center;
-        background-size:cover;
-        background-repeat: no-repeat;
+        background-size:auto,cover;
         background-attachment: scroll, fixed;
        overflow-x: hidden;
 	}
-/* */
 
-
-
-/**/
 #banner{
     position: relative;
     display: block;
@@ -64,7 +59,7 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
         background-color: transparent;
         position: static;
         display: block;
-        width: 70%;
+        width: 88%;
         margin-left: auto;
         margin-right:auto;
         border-radius: 0px;
@@ -72,36 +67,33 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
     }
 
         a.navbar-brand i.logo {
-            text-align: center;
+            text-align: left;
+            float: left;
+            margin: 0px;
             background-image: url(../img/icon/img-logo.png);
             width: 50px;
             height: 50px;
         }
             
             a.navbar-brand i.logo span {
-                font-size: 20px;
+                font-size: 25px;
                 margin-left: 2.5em;
                 font-style: normal;
             }
     
-    div.navbar-collapse ul.navbar-right li {
+     ul.navbar-right li {
         text-align: center;
-       /* border: 1px solid white;*/
-        /*border-radius: 5px;*/
     }  
-        div.navbar-collapse ul.navbar-right li a {
+        ul.navbar-right > li > a {
+            background-color: transparent;
             font-size: 20px;
+            margin-top: 10px;
+            border: 2px solid white;
+            border-radius: 5px;
         } 
-        
-          div.navbar-collapse ul.navbar-right li a:hover {
-              font-size: 20px;
-              border-bottom: 1px solid white;
-              border-right: 1px solid white;
-              border-left: 1px solid white;
-          } 
 
     #banner header {
-        width: 80%;
+        width: 88%;
         padding-top: 184px;
         margin: 0 auto;
     }    
@@ -110,17 +102,17 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
         font-family: 'Open Sans', sans-serif;
         color: white;
         font-weight: 300;
-        text-align: center;
+        text-align: left;
+        padding-right: 600px;
     }
         #banner header h2{
             margin-top: -10px;
             margin-left: 0px;
-            padding-right: 394px;
             padding-left: 0px;
             font-family: 'Open Sans', sans-serif;
             color: white;
             font-size: 40px;
-            text-align: center;
+            text-align: left;
             line-height: 51px;
             font-weight: 300;
             letter-spacing: 4px;
@@ -132,7 +124,6 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
             margin-top: 0px;
             margin-bottom: 30px;
             padding-top: 50px;
-            padding-right: 393px;
             font-family: 'Open Sans', sans-serif;
             color: white;
             font-size: 20px;
@@ -144,7 +135,7 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
 /**/
 .envoltura {
 		padding: 2em 0em 4em;
-        margin-bottom: 5em;
+        margin-bottom: 4.5em;
 	}
         
         .envoltura.style-while {
@@ -474,32 +465,9 @@ textarea{
             width: 40px;
             height: 40px;
         }
-    .navbar-toggle{
-        width: 97%;
-        margin: 5px;
-        background: white;
+    ul.nav.navbar-nav.navbar-right{
+        display: none;
     }
-     
-    .navbar-toggle:active{
-        background: white;
-    }
-    div.navbar-collapse ul.navbar-right li {
-        text-align: center;
-        width: 95%;
-        margin: 5px;
-        border: 1px solid white;
-        border-radius: 5px;
-    }  
-        div.navbar-collapse ul.navbar-right li a {
-            font-size: 20px;
-        } 
-        
-          div.navbar-collapse ul.navbar-right li a:hover {
-              font-size: 20px;
-               border: 0;
-               background: white;
-              color:  rgba(127, 186, 17, 0.87) !important;
-          } 
     
     .envoltura.style-while header h2{ 
                 font-size: 30px;

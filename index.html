@@ -11,29 +11,19 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script>
     $( document ).ready(function() {
          var wow = new WOW(
           {
-            boxClass:     'wow',      // animated element css class (default is wow)
-            animateClass: 'animated', // animation css class (default is animated)
-            offset:       0,          // distance to the element when triggering the animation (default is 0)
-            mobile:       true,       // trigger animations on mobile devices (default is true)
-            live:         true,       // act on asynchronously loaded content (default is true)
+            boxClass:     'wow',      
+            animateClass: 'animated', 
+            offset:       0,          
+            mobile:       true,       
+            live:         true,       
             callback:     function(box) {
-              // the callback is fired every time an animation is started
-              // the argument that is passed in is the DOM node being animated
             },
-            scrollContainer:null // optional scroll container selector, otherwise use window
+            scrollContainer:null 
           }
         );
         wow.init();
@@ -47,21 +37,11 @@
   <!-- El logotipo y el icono que despliega el menú se agrupan
        para mostrarlos mejor en los dispositivos móviles -->
   <div class="navbar-header">
-   <a class="navbar-brand" href="#"><i class="logo"><span>AgroSkan</span></i></a>
-    <button type="button" class="navbar-toggle" data-toggle="collapse"
-            data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Desplegar navegación</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    
-    </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Ingresar</a></li>
-        </ul>
+       <a class="navbar-brand" href="#"><i class="logo"><span>AgroSkan</span></i></a>
   </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="www.google.com">Ingresar</a></li>
+    </ul>
 </nav>
     <header class="wow fadeInRight">
         <h2>AGROSKAN UN AMIGO PARA TU CULTIVO</h2>
@@ -77,30 +57,31 @@
         <div class="row">
             <section class="col-xs-12 col-sm-12	col-md-4 col-lg-4 wow fadeInLeft" >
                 <article class="box">
+                    <h2>Registro de plagas</h2>
                     <div class="cont-img">
                         <i class="img-ttp"></i>                        
                     </div>
-                    <h2>Registro de plagas</h2>
                     <p>AgroSkan te trae una aplicación móvil para el registro de plagas en tiempo real, adecuada 
                        a las condiciones y necesidades de tu cultivo.</p>
                 </article>
             </section>
             <section class="col-xs-12 col-sm-12	col-md-4 col-lg-4 wow zoomIn">
                 <article class="box">
+                   <h2>Monitoreo del cultivo</h2>
                     <div class="cont-img">
                         <i class="img-moni"></i>                        
                     </div>
-                    <h2>Monitoreo del cultivo</h2>
+                    
                     <p>Con AgroSkan una vez se sincronizan los datos en campo, estos estarán disponibles para 
                        realizar el seguimiento correspondiente.</p>
                 </article>
             </section>
             <section class="col-xs-12 col-sm-12	col-md-4 col-lg-4 wow fadeInRight">
                 <article class="box">
+                     <h2>Planificación y evaluación</h2>
                     <div class="cont-img">
                         <i class="img-rep"></i>                        
                     </div>
-                    <h2>Planificación y evaluación</h2>
                     <p>AgroSkan dispone de reportes actuales e históricos tanto de incidencia como de severidad. </p>
                 </article>
             </section>
