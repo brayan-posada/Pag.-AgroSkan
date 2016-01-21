@@ -179,10 +179,10 @@ html, body, div, img,span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, bl
 div.row .box  {
     border-radius: 4px;
     border: 2px solid rgba(127, 186, 17, 0.87);
-    margin-bottom: 2em;
+    margin-bottom: 0em;
     margin-top: 2em;
-    padding: 1.5em;
-    height: 300px;
+    padding: 1em;
+    height: 400px;
     text-align: center;
 } 
     div.row .box-cli{
@@ -194,8 +194,8 @@ div.row .box  {
         text-align: center;
     }
     .box div.cont-img{
-            width: 100%;
-            height: 100px;
+            width:100%;
+            height: 200px;
             padding: 0;
             margin: 0;
         }
@@ -208,9 +208,22 @@ div.row .box  {
                 .box img.img.mod-width, .box-cli img.img.mod-width {
                     width:250px;
                 }
-                
+                    i.img-moni{
+                        background-image: url(../img/icon/monitoreo.png);
+                        height: 200px !important;
+                    }
+                    i.img-ttp{
+                        background-image: url(../img/icon/Registrodeplagas.png);
+                        height: 200px !important;
+                    }
+                    i.img-rep{
+                        background-image: url(../img/icon/Reporte.png);
+                        height: 200px !important;
+                    }                
+
+
                 .box div.cont-img i.img-moni,.box div.cont-img i.img-ttp,.box div.cont-img i.img-rep{
-                    display: inline-block;
+                    display:block;
                     width: 100%;
                     height: 100px;
                     background-repeat: no-repeat;
@@ -220,20 +233,12 @@ div.row .box  {
                     margin: 0;
                 }
                 
-i.img-moni{
-    background-image: url(../img/icon/monitoreo.png);
-}
-i.img-ttp{
-    background-image: url(../img/icon/Registrodeplagas.png);
-}
-i.img-rep{
-    background-image: url(../img/icon/Reporte.png);
-}
+
             
     .box h2{
             margin-top: 15px;
             font-size: 20px;
-            margin-top: 2em;
+            margin-top: 1.5em;
             letter-spacing: 3px;
             text-transform: none;  
             margin-bottom: 10px;
@@ -470,19 +475,23 @@ textarea{
     }
     
     .envoltura.style-while header h2{ 
-                font-size: 30px;
+                font-size: 25px !important;
 		    }
     .box h2{
-            font-size: 20px;
+            font-size:20px !important;
         }
     .box p{
         text-align: justify;
         letter-spacing:1px;
     }
     div.row .box  {
-        height: 350px;
-        
+        height: 350px; 
     } 
+    
+    div.row .box-cli{
+        width:100% !important;
+        margin: 1em auto;
+    }
     
 .center-obj{
     width: 100%;
@@ -517,10 +526,20 @@ textarea{
                 font-size: 35px;
 		    } 
     div.row .box  {
-        height: 350px;
-        
+        height: 400px;
     }
+    .box h2, .box p{
+           padding-top: 2%;
+           text-align: center !important; 
+        }
+    .box p{
+           padding-top: 2%;
+        }
     
+    div.row .box-cli{
+        width:50%;
+        margin: 1em auto;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) 
