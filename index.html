@@ -33,70 +33,74 @@
 <body>
    <!-- banner inicial -->
     <section id="banner">
-        <header>
+       <nav class="navbar navbar-default" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#"><i class="logo"><span>AgroSkan</span></i></a>
+  </div>
+ 
+  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+       otro elemento que se pueda ocultar al minimizar la barra -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a><i class="ico-ins"></i><span>Inspección</span></a></li>
+      <li><a><i class="ico-mon"></i><span>Monitoreo</span></a></li>
+      <li><a><i class="ico-pro"></i><span>Protección</span></a></li>
+    </ul>
+  </div>
+</nav>
+        <header class="wow zoomIn animated">
             <h2>Garantice la sanidad vegetal de su cultivo en todo momento con AgroSkan</h2>
             <p></p>
         </header>
     </section>
+    
     <!-- inspeccion en campo  -->
     <section class="envoltura light-grayish-blue">
-       <header>
-           <ul>
-               <li><a><i class="ico-ins"></i></a></li>
-               <li><a><i class="ico-mon"></i></a></li>
-               <li><a><i class="ico-pro"></i></a></li>
-           </ul>
-       </header>
        <div class="container">
            <div class="row">
-               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-5 wow fadeInLeft animated">
                    <header>
                        <h2>INSPECCION EN CAMPO</h2>
                    </header>
                </section>
-               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-7 wow fadeInRight animated">
                    <i class="img-cam"></i>
                </section>
            </div>
        </div>
     </section>
     <section class="envoltura dark-grayish-green">
-       <header>
-           <ul>
-               <li><a><i class="ico-ins"></i></a></li>
-               <li><a><i class="ico-mon"></i></a></li>
-               <li><a><i class="ico-pro"></i></a></li>
-           </ul>
-       </header>
        <div class="container">
            <div class="row">
-               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-4 wow fadeInLeft animated">
                    <header>
                        <h2>MONITOREO CONSTANTE</h2>
                    </header>
                </section >
-               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-8 wow fadeInRight animated">
                    <i class="img-moni"></i>
                </section>
            </div>
        </div>        
     </section>
     <section class="envoltura light-grayish-blue">
-       <header>
-           <ul>
-               <li><a><i class="ico-ins"></i></a></li>
-               <li><a><i class="ico-mon"></i></a></li>
-               <li><a><i class="ico-pro"></i></a></li>
-           </ul>
-       </header>
        <div class="container">
            <div class="row">
-               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-5 wow fadeInLeft animated">
                    <header>
                        <h2>PROTECCIÓN Y PREVENCIÓN</h2>
                    </header>
                </section>
-               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+               <section class="col-xs-12 col-sm-12 col-md-6 col-lg-7 wow fadeInRight animated">
                    <i class="img-pro"></i>
                </section>
            </div>
@@ -105,7 +109,8 @@
     
     
     <section id="contag" class="envoltura dark-grayish-green">
-      <header class="sub-title">
+     <section id="al-clie">
+         <header class="sub-title">
           <h2>Algunos de nuestros clientes</h2>
       </header>
       <div class="container">
@@ -125,68 +130,71 @@
                     <img src="img/icon/valleflor.png" class="img">
                 </article>
             </section>
+          </div>
         </div>
-    </div>
-      <header class="sub-title">
-        <h2>Contáctenos</h2>
-    </header>
-    <div class="container">
-        <div class="row"> 
-            <section class="col-xs-12 col-sm-12	col-md-6 col-lg-6 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-               <form method="post">
-                   <ul>
-                       <li>Nombre </li>
-                       <li><input type="text" placeholder="Nombre"> </li>
-                       <li>Correo Electrónico </li>
-                       <li><input type="email" placeholder="ejemplo@ejemplo.com"> </li>
-                       <li>Asunto</li>
-                       <li>
-                           <textarea placeholder="Comentarios">                           
-                           </textarea>
-                       </li>
-                       <li class="botton"><input type="submit"></li>
-                   </ul>
-               </form>
-            </section>
-            <section class="col-xs-12 col-sm-12	col-md-6 col-lg-6 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
-                <article class="margin-top row">
-                    <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-                       <div class="icon-img"><i class="map"></i></div>
-                    </div>
-                    <div class="col-xs-10 col-sm-10	col-md-11 col-lg-11">
-                        <h4 class="text-h4">Calle 125 No.19 – 89 Ofc.502 Bogotá, Colombia</h4>
-                    </div>
-                </article>
-                <article class="margin-top row">
-                    <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-                        <div class="icon-img"><i class="email"></i></div>
-                    </div>
-                    <div class="col-xs-10 col-sm-10	col-md-11 col-lg-11">
-                        <h4 class="text-h4">agroskan@mapasydatos.Com</h4>
-                    </div>
-                </article>
-                <article class="margin-top row">
-                   <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-                        <div class="icon-img"><i class="phone"></i></div>
-                    </div>
-                    <div class="col-xs-10 col-sm-10	col-md-11 col-lg-11">
-                        <h4 class="text-h4">571.638.1073</h4>
-                    </div>
-                </article>
-            </section>    
+     </section>
+     <span class="liena" ></span>
+      <section id="conta">
+        <header class="sub-title">
+                <h2>Contáctenos</h2>
+        </header>
+        <div class="container">
+            <div class="row"> 
+                <section class="col-xs-12 col-sm-12	col-md-6 col-lg-6 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                   <form method="post">
+                       <ul>
+                           <li>Nombre </li>
+                           <li><input type="text" placeholder="Nombre"> </li>
+                           <li>Correo Electrónico </li>
+                           <li><input type="email" placeholder="ejemplo@ejemplo.com"> </li>
+                           <li>Asunto</li>
+                           <li>
+                               <textarea placeholder="Comentarios">                           
+                               </textarea>
+                           </li>
+                           <li class="botton"><input type="submit"></li>
+                       </ul>
+                   </form>
+                </section>
+                <section class="col-xs-12 col-sm-12	col-md-6 col-lg-6 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                    <article class="margin-top row">
+                        <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+                           <div class="icon-img"><i class="map"></i></div>
+                        </div>
+                        <div class="col-xs-10 col-sm-10	col-md-11 col-lg-11">
+                            <h4 class="text-h4">Calle 125 No.19 – 89 Ofc.502 Bogotá, Colombia</h4>
+                        </div>
+                    </article>
+                    <article class="margin-top row">
+                        <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+                            <div class="icon-img"><i class="email"></i></div>
+                        </div>
+                        <div class="col-xs-10 col-sm-10	col-md-11 col-lg-11">
+                            <h4 class="text-h4">agroskan@mapasydatos.Com</h4>
+                        </div>
+                    </article>
+                    <article class="margin-top row">
+                       <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+                            <div class="icon-img"><i class="phone"></i></div>
+                        </div>
+                        <div class="col-xs-10 col-sm-10	col-md-11 col-lg-11">
+                            <h4 class="text-h4">571.638.1073</h4>
+                        </div>
+                    </article>
+                </section>    
+            </div>
         </div>
-    </div>
-    <section class="redes-sociales">
-        <div class="center-obj wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
-            <ul>
-                <li><a href=""><i class="github"></i></a></li>
-                <li><a href="https://www.facebook.com/MapasyDatos/?fref=ts" target="_blank"><i class="fac"></i></a></li>
-                <li><a href="https://twitter.com/mapasydatos" target="_blank"><i class="tw"></i></a></li>
-            </ul>
-        </div>
-    </section>     
-    </section>
-    
+        <section class="redes-sociales">
+            <div class="center-obj wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                <ul>
+                    <li><a href=""><i class="github"></i></a></li>
+                    <li><a href="https://www.facebook.com/MapasyDatos/?fref=ts" target="_blank"><i class="fac"></i></a></li>
+                    <li><a href="https://twitter.com/mapasydatos" target="_blank"><i class="tw"></i></a></li>
+                </ul>
+            </div>
+        </section> 
+      </section>
+    </section>    
 <script src="js/bootstrap.js"></script>
 <script src="js/wow.min.js"></script>
 </body>
