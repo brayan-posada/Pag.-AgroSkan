@@ -1,0 +1,27 @@
+@media (max-width:992px) { 
+  #banner header h2{
+            font-size: 35px;
+        }
+    #banner header p{
+            padding-right:0px;
+            font-size: 20px;
+        }
+    .envoltura.style-while header h2{ 
+                font-size: 35px;
+		    } 
+    div.row .box  {
+        height: 400px;
+    }
+    .box h2, .box p{
+           padding-top: 2%;
+           text-align: center !important; 
+        }
+    .box p{
+           padding-top: 2%;
+        }
+    
+    div.row .box-cli{
+        width:50%;
+        margin: 1em auto;
+    }
+}

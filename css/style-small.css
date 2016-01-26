@@ -1,0 +1,69 @@
+@media (max-width:768px) { 
+    
+   #banner header h2{
+       margin-top: -20%;
+            padding-right: 0px;
+            font-size: 25px !important;
+        }
+    #banner header p{
+            padding-right:0px;
+            font-size: 14px !important;
+            text-align:center !important;
+        }
+        
+    .navbar-default{
+        width: 100%;
+       
+    }
+    a.navbar-brand {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+        a.navbar-brand i.logo {
+            text-align: center;            
+            background-image: url(../img/icon/img-logo.png);
+            width: 40px;
+            height: 40px;
+        }
+    ul.nav.navbar-nav.navbar-right{
+        display: none;
+    }
+    
+    .envoltura.style-while header h2{ 
+                font-size: 25px !important;
+		    }
+    .box h2{
+            font-size:20px !important;
+        }
+    .box p{
+        text-align: justify;
+        letter-spacing:1px;
+    }
+    div.row .box  {
+        height: 350px; 
+    } 
+    
+    div.row .box-cli{
+        width:100% !important;
+        margin: 1em auto;
+    }
+    
+.center-obj{
+    width: 100%;
+}
+    .center-obj ul {
+        margin-top: 1em;
+    }
+     .center-obj ul > li  {
+            display: inline-block;
+            margin-left: 2px;
+            width: 40px;
+            height: 40px;
+        }
+    
+    button:hover {
+        border-radius: 5px;
+        background-color: white !important;
+        color: rgba(127, 186, 17, 0.87) !important;
+	}
+}
