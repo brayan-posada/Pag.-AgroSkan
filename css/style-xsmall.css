@@ -1,0 +1,39 @@
+/*480px*/
+
+@media (max-width:480px) { 
+     i.img-cam.prim{
+            background-image: url(/img/icon/descarga.png);
+            width: 350px;
+            height: 500px;
+        }
+        i.img-cam.secon{
+            display: none !important;
+        }
+
+        i.img-cam.ter{
+            display: none !important;
+        } 
+    
+    i.img-moni{
+        display: block;
+        width: 350px !important;
+        height:400px !important ;
+    }
+        
+        i.img-pro{
+           display: block !important;
+            width: 350px !important;
+            height:200px !important;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+         i.img-cam.secon{
+            display: none !impotant;
+        }
+
+        i.img-cam.ter{
+            display: none !impotant;
+        }
+        
+}

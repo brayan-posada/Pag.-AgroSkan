@@ -26,12 +26,44 @@
             height: 40px;
         }
     ul.nav.navbar-nav.navbar-right{
-        display: none;
+       width: 100%;
+        display: block;
     }
     
-    .envoltura.style-while header h2{ 
-                font-size: 25px !important;
-		    }
+   .envoltura.light-grayish-blue div.row header h2, .envoltura.dark-grayish-green div.row header h2 {     
+                font-size: 30px !important;
+            }
+        
+    div.row header h2 {
+        text-align: center;
+    }
+        
+        i.img-moni{
+            display: block;
+            width: 600px !important;    
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+    }
+        
+        i.img-pro{
+           display: block !important;
+            width: 600px !important;
+            height:400px !important;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+         i.img-cam.secon{
+            display: none !impotant;
+        }
+
+        i.img-cam.ter{
+            display: none !impotant;
+        }
+
+    
+    
     .box h2{
             font-size:20px !important;
         }
