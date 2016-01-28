@@ -8,11 +8,13 @@
     <title>AgroSakan</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/icon/img-logo.png">
     <!-- Bootstrap -->  
+    
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
-    <script>
+    
+
+<script>
     $( document ).ready(function() {
          var wow = new WOW(
           {
@@ -28,39 +30,43 @@
         );
         wow.init();
     });
-    </script>
+</script>
 </head>
 <body>
    <!-- banner inicial -->
     <section id="banner">
-        <nav class="navbar navbar-default" role="navigation">
-        <!-- El logotipo y el icono que despliega el menú se agrupan
-        para mostrarlos mejor en los dispositivos móviles -->
-            <a class="navbar-brand" href="#">
-                <i class="logo">
-                    <span>AgroSkan</span>
-                </i>
-            </a>    
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Desplegar navegación</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+     
+          <nav  class="navbar navbar-default "  role="navigation">
+           <div class="container">
+            <!-- El logotipo y el icono que despliega el menú se agrupan
+            para mostrarlos mejor en los dispositivos móviles -->
+                <a class="navbar-brand" href="#">
+                    <i class="logo">
+                        <span>AgroSkan</span>
+                    </i>
+                </a>    
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Desplegar navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 
-        <!-- Agrupar los enlaces de navegación, los formularios y cualquier
-        otro elemento que se pueda ocultar al minimizar la barra -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a><i class="ico-ins"></i><span>Inspección</span></a></li>
-                    <li><a><i class="ico-mon"></i><span>Monitoreo</span></a></li>
-                    <li><a><i class="ico-pro"></i><span>Protección</span></a></li>
-                    <li><a><i class="ico-pro"></i><span>Ingresar</span></a></li>
-                </ul>
-            </div>
-        </nav>
+            <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+            otro elemento que se pueda ocultar al minimizar la barra -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a><i class="ico-ins"></i><span>Inspección</span></a></li>
+                        <li><a><i class="ico-mon"></i><span>Monitoreo</span></a></li>
+                        <li><a><i class="ico-pro"></i><span>Protección</span></a></li>
+                        <li><a><i class="ico-log"></i><span>Ingresar</span></a></li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        
         <header class="wow zoomIn animated">
             <h2>Garantice la sanidad vegetal de su cultivo en todo momento con AgroSkan</h2>
         </header>
@@ -137,8 +143,8 @@
           </div>
         </div>
      </section>
-     <span class="liena" ></span>
-      <section id="conta">
+    </section> 
+    <section class="envoltura light-grayish-blue">
         <header class="sub-title">
                 <h2>Contáctenos</h2>
         </header>
@@ -197,9 +203,23 @@
                 </ul>
             </div>
         </section> 
-      </section>
-    </section>    
+        
+    </section>   
+<script src="js/jquery-2.1.1.js" ></script>
 <script src="js/bootstrap.js"></script>
+
 <script src="js/wow.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+<script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+            function s(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},r=document,f=window,e="script",o=r.createElement(e),i,u;for(o.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",r.getElementsByTagName(e)[0].parentNode.appendChild(o),t.cookie=r.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)s("track"+i.pop());return config.disableExceptionTracking||(i="onerror",s("_"+i),u=f[i],f[i]=function(config,r,f,e,o){var s=u&&u(config,r,f,e,o);return s!==!0&&t["_"+i](config,r,f,e,o),s}),t
+        }({
+            instrumentationKey:"05fc8abb-dec1-4897-9bc5-ceb4f0a0343a"
+        });
+
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script>
 </body>
 </html>

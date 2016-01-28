@@ -72,17 +72,54 @@ h1,h2, h3, p {
    /* menu de la aplicación */ 
     .navbar-default{
         background-color: transparent;
-        position: static;
+        position: fixed;
         display: block;
-        width: 88%;
+        width: 100%;
         margin-left: auto;
         margin-right:auto;
         border-radius: 0px;
         border: 0;
+        z-index: 1;
     }
      .navbar-header{
         display:block;
-    }    
+    }
+
+       .navbar-scroll {
+          background-color:#66684a;
+          border-color: #fff;
+          padding: 0 0;
+        }
+        .navbar-scroll .navbar-nav > .active > a:focus {
+          background: transparent;
+          color: inherit;
+        }
+
+        .navbar-scroll.navbar-default .nav li a {
+          color: #676a6c;
+        }
+        .navbar-scroll.navbar-default .nav li a:hover {
+          color:#252830;
+        }
+        .navbar-wrapper .navbar.navbar-scroll {
+          padding-top: 0;
+          padding-bottom: 5px;
+          border-bottom: 1px solid #252830;
+          border-radius: 0;
+        }
+        .nav > li > a {
+          padding: 15px 10px 15px 10px;
+        }
+        .navbar-scroll .navbar-nav > li > a {
+          padding: 20px 10px;
+        }
+        .navbar.navbar-scroll .navbar-brand {
+          margin-top: 15px;
+          border-radius: 5px;
+          font-size: 32px;
+          padding: 10px;
+          height: auto;
+        }    
 
         a.navbar-brand i.logo {
             text-align: left;
@@ -111,7 +148,7 @@ h1,h2, h3, p {
                 display: inline-block;
             } 
 
-                ul.navbar-right  li  a:hover {
+                ul.navbar-right  li a:hover {
                     cursor: pointer;
                     border-bottom: 1px solid white;
                 }
@@ -125,7 +162,11 @@ h1,h2, h3, p {
                    height: 20px; 
                 }
 
-                    ul.navbar-right > li a i.ico-ins ,  ul.navbar-right > li a i.ico-mon , ul.navbar-right > li a i.ico-pro {
+                    ul.navbar-right > li a i.ico-ins , 
+                    ul.navbar-right > li a i.ico-mon , 
+                    ul.navbar-right > li a i.ico-pro ,
+                    ul.navbar-right > li a i.ico-log
+                    {
                         text-align: left;
                         float: left;
                         margin-top: 0.9em;
@@ -147,6 +188,10 @@ h1,h2, h3, p {
 
                      i.ico-pro{
                         background-image: url(../img/icon/data66.png);
+                    }
+
+                    i.ico-log{
+                        background-image: url(../img/icon/login17.png);
                     }
 
     
@@ -216,13 +261,13 @@ article.margin-top{
                 margin-top: 2em;
             }
                 
-            .envoltura.dark-grayish-green header.sub-title  {
+            .envoltura.dark-grayish-green header.sub-title,.envoltura.light-grayish-blue header.sub-title {
                 text-align: center;
                 font-size: 35px;
                 text-transform:inherit;
             }
             
-.envoltura.dark-grayish-green header.sub-title  h2{
+.envoltura.dark-grayish-green header.sub-title h2, .envoltura.light-grayish-blue header.sub-title h2 {
     color:#66684a;
 }
 
