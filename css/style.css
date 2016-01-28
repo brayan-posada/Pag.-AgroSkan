@@ -89,6 +89,7 @@ h1,h2, h3, p {
           background-color:#66684a;
           border-color: #fff;
           padding: 0 0;
+          margin: 0 0;
         }
         .navbar-scroll .navbar-nav > .active > a:focus {
           background: transparent;
