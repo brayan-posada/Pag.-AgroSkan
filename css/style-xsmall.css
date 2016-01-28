@@ -1,11 +1,20 @@
 /*480px*/
 
-@media (max-width:480px) { 
-     i.img-cam.prim{
+@media only screen and (max-width:500px) {
+    
+    #banner header h2{
+            width: 100%;
+           margin-top: -20% !important;
+           padding-right: 0px !important;
+           font-size: 20px !important;
+    }
+    
+        i.img-cam.prim{
             background-image: url(/img/icon/descarga.png);
             width: 350px;
             height: 500px;
         }
+    
         i.img-cam.secon{
             display: none !important;
         }
@@ -13,19 +22,29 @@
         i.img-cam.ter{
             display: none !important;
         } 
-    
-    i.img-moni{
-        display: block;
-        width: 350px !important;
-        height:400px !important ;
+      
+    img.img-moni {
+         margin: 1.5em 0;
+         width:100% !important;
+         height: 200px !important;
     }
-        
-        i.img-pro{
-           display: block !important;
-            width: 350px !important;
+    
+    i.img-cam.prim {
+            width: 100% !important;
+            height: 300px !important;
+        }    
+    i.img-cam.secon{
+            display: none !impotant;
+        }
+
+        i.img-cam.ter{
+            display: none !impotant;
+        }
+    
+    
+        img.img-pro{
+            width: 100% !important;
             height:200px !important;
-            background-size: contain;
-            background-repeat: no-repeat;
         }
     
          i.img-cam.secon{

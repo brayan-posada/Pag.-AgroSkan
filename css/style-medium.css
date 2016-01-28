@@ -1,27 +1,36 @@
-@media (max-width:992px) { 
+@media only screen and (max-width:992px) {
+    
   #banner header h2{
-            font-size: 35px;
+          margin-top:0%!important;
+          padding-right: 0px!important; 
+          font-size: 30px !important;
+          width: 100%;
+          overflow-y: hidden !important;
         }
     #banner header p{
             padding-right:0px;
             font-size: 20px;
         }
-    .envoltura.style-while header h2{ 
-                font-size: 35px;
-		    } 
-    div.row .box  {
-        height: 400px;
-    }
-    .box h2, .box p{
-           padding-top: 2%;
-           text-align: center !important; 
-        }
-    .box p{
-           padding-top: 2%;
-        }
     
+   
+    nav.navbar.navbar-default a.navbar-brand i.logo  span, ul.navbar-right {
+            display: none !important;
+    }
+    
+    .envoltura.style-while header h2{ 
+         font-size: 35px;
+    }
+    
+    img.img-moni{
+      width:100% !important;  
+    }
+    
+    img.img-pro{
+                width: 100% !impotant;
+            }               
     div.row .box-cli{
         width:50%;
         margin: 1em auto;
     }
+    
 }
